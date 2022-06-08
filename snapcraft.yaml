@@ -19,7 +19,7 @@ architectures:
 parts:
     fwts:
         plugin: autotools
-        source: git://kernel.ubuntu.com/hwe/fwts
+        source: https://github.com/Ivanhu5866/fwts
         stage-packages:
             - libfdt1
             - libbsd0
