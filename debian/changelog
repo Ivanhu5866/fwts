@@ -1,3 +1,9 @@
+fwts (24.12.01-0ubuntu1) plucky; urgency=medium
+
+  * test
+
+ -- Ivan Hu <ivan.hu@ubuntu.com>  Fri, 17 Jan 2025 14:10:26 +0800
+
 fwts (24.11.00-0ubuntu1) plucky; urgency=medium
 
   [Armin Wolf]
