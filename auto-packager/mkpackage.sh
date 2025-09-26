@@ -82,7 +82,7 @@ prepare_tarball()
 {
 	mkdir $version
 	pushd $version >& /dev/null
-	wget --content-disposition $RELEASE_TAR_URL/$version.tar.gz
+	wget -O fwts-$version.tar.gz $RELEASE_TAR_URL/$version.tar.gz
 	#wget -N $RELEASE_TAR_URL/SHA256SUMS
 	#grep "fwts-$version.tar.gz" SHA256SUMS > SHA256SUMS.local
 	#sha256sum -c SHA256SUMS.local
